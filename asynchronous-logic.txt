@@ -1,0 +1,10 @@
+Question: Describe the syntax for implementing asynchronous logic without providing the actual code.
+
+1. Async Function Declaration: 
+   Firstly define a function as asynchronous using a special keyword (like `async` in some languages). This tells the program that the function may contain asynchronous operations, allowing it to run non-blocking tasks.
+
+2. Awaiting Asynchronous Operations:
+   Inside an async function, we can "pause" execution at certain points, waiting for an asynchronous task to complete (using a keyword like `await`). This allows other tasks to run during the wait time.
+
+3. Handling Promises or Futures:
+   In some languages, asynchronous tasks return "promises" or "futures," which represent values that will be available in the future. These can be "awaited" or "then" chained to handle the result when it's ready.
